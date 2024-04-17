@@ -1,0 +1,8 @@
+echo "[INFO] Prettier checking"
+yarn prettier
+
+echo "[INFO] Eslint checking"
+yarn eslint
+
+echo "[INFO] Testing"
+yarn vitest run
